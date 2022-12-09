@@ -38,7 +38,7 @@ class ReadFileVersionsRemoteOperationIT : AbstractIT() {
             txtFile.absolutePath,
             filePath,
             "txt/plain",
-            (System.currentTimeMillis() / MILLI_TO_SECOND).toString()
+            System.currentTimeMillis() / MILLI_TO_SECOND
         )
             .execute(client)
 
@@ -62,7 +62,7 @@ class ReadFileVersionsRemoteOperationIT : AbstractIT() {
             txtFile.absolutePath,
             filePath,
             "txt/plain",
-            (System.currentTimeMillis() / MILLI_TO_SECOND).toString()
+            System.currentTimeMillis() / MILLI_TO_SECOND
         )
             .execute(client)
 
